@@ -32,3 +32,33 @@
 # ?     ‘b’ or not . Take a = 34 and b = 80
 # ? 5. Write a python program to find an average of two numbers entered by the user.
 # ? 6. Write a python program to calculate the square of a number entered by the user.
+
+a = 10
+b = 20
+print(a + b)
+
+
+def rem(a, b):
+    return a % b
+
+
+print(rem(10, 20))
+
+answer = input("Checking type of input : ")
+print(type(answer))
+
+v = 34
+m = 80
+
+print(v > m)
+
+
+inp1 = int(input('Enter the Input 1 : '))
+inp2 = int(input("Enter input 2 : "))
+
+avg = (inp1 + inp2) / 2
+print(avg)
+
+square = int(input('Enter the Input 1 to find square: '))
+
+print(pow(square, 2))
