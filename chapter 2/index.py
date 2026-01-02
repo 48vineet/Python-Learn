@@ -62,3 +62,17 @@ print(avg)
 square = int(input('Enter the Input 1 to find square: '))
 
 print(pow(square, 2))
+
+
+# todo outputs :
+30
+10
+Checking type of input: 32
+<class 'str' >
+False
+Enter the Input 1: 23
+Enter input 2: 21
+22.0
+Enter the Input 1 to find square: 3
+9
+PS E:
