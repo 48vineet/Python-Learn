@@ -1,10 +1,11 @@
+import datetime
 
 # * Introduction to Strings
 # can be declare in 3 forms
 
 name1 = "Vineet"
-name2 = 'Vineet'
-name3 = ''' Vineet '''
+name2 = "Vineet"
+name3 = """ Vineet """
 
 
 # * STRING SLICING
@@ -134,5 +135,14 @@ print(name[1:12:3])  # ieah
 # characters.
 # letter = "Dear Harry, this python course is nice. Thanks!"
 
-name = input("Enter Name :")
-print(f"Good Evening Mr/Mrs {name}")
+# name = input("Enter Name :")
+# print(f"Good Evening Mr/Mrs {name}")
+
+# name = input("Enter Name :")
+# letter = f'''
+#  Dear <|{name}|>,
+#     You are selected!
+#     <|{datetime.datetime.now()}|>
+# '''
+
+# print(letter)
