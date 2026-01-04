@@ -48,8 +48,38 @@ a = (1, 7, 2)
 #! CHAPTER 4 - PRACTICE SET
 # ? 1. Write a program to store seven fruits in a list entered by the user.
 # ? 2. Write a program to accept marks of 6 students and display them in a sorted
-# ? manner.
+# ?    manner.
 # ? 3. Check that a tuple type cannot be changed in python.
 # ? 4. Write a program to sum a list with 4 numbers.
 # ? 5. Write a program to count the number of zeros in the following tuple:
 # ? a = (7, 0, 8, 0, 0, 9)
+
+# l1 = []
+# no = int(input("Enter the No Of Fruits : "))
+# for i in range(1, no):
+#     fruit = input(f"Enter the Fruit {i} : ")
+#     l1.append(fruit)
+# print(l1)
+
+# l2 = []
+# no = int(input("Enter the No Of Student : "))
+# for i in range(1, no):
+#     student = int(input(f"Enter the Student Marks {i} : "))
+#     l2.append(student)
+# l2.sort()
+# print(l2)
+
+
+# tuple = (10, 12, 12, 32, 12)
+# tuple[0] = 13
+# print(tuple)
+
+# a = [7, 8, 0, 9]
+# sum = 0
+# for i in range(0, len(a)):
+#     sum = sum + a[i]
+# print(sum)
+
+# a = (7, 0, 8, 0, 0, 9, 0)
+# ans = a.count(0)
+# print(ans)
