@@ -46,3 +46,12 @@
 # <50
 # = > F
 # 7. Write a program to find out whether a given post is talking about “Harry” or not .
+
+# a = set()
+
+# for i in range(1, 5):
+#     n = int(input(f"Enter four no , now enter no {i}: "))
+#     a.add(n)
+
+# ss = max(a)
+# print(ss)
