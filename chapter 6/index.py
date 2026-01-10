@@ -27,9 +27,11 @@
 
 # CHAPTER 6 – PRACTICE SET
 # 1. Write a program to find the greatest of four numbers entered by the user.
+
 # 2. Write a program to find out whether a student has passed or failed if it requires a
 # total of 40 % and at least 33 % in each subject to pass . Assume 3 subjects and
 # take marks as an input from the user.
+
 # 3. A spam comment is defined as a text containing following keywords:
 # “Make a lot of money”, “buy now”, “subscribe this”, “click this”. Write a program
 # to detect these spams.
