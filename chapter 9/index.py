@@ -81,4 +81,45 @@
 
 # 10. Write a program to wipe out the content of a file using python.
 
-# 11. Write a python program to rename a file to “renamed_by_ python.txt.
+# 11. Write a python program to rename a file to "renamed_by_ python.txt.
+
+# with open("chapter 9/text.txt", "r") as f:
+#     r = f.read()
+
+# if "twinkle" in r:
+#     print("it contains")
+
+
+# Solution for Problem 2: High Score Manager
+import random
+
+
+def game():
+    """Simulates a game and returns a score"""
+    print("Playing game...")
+    score = random.randint(1, 100)
+    print(f"Your score: {score}")
+    return score
+
+
+# Read the current high score
+try:
+    with open("chapter 9/Hi-score.txt", "r") as f:
+        content = f.read()
+        hiscore = int(content) if content.strip() else 0
+except FileNotFoundError:
+    hiscore = 0
+
+print(f"Current Hi-score: {hiscore}")
+
+# Play the game
+score = game()
+
+# Update high score if broken
+if score > hiscore:
+    with open("chapter 9/Hi-score.txt", "w") as f:
+        f.write(str(score))
+    print(f"🎉 New Hi-score! {score}")
+else:
+    print(
+        f"Try again! You need {hiscore - score} more points to beat the high score.")
