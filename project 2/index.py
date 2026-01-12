@@ -15,6 +15,8 @@ computer = random.randint(0, 50)
 
 guess = int(input("Enter your guess : "))
 
+attempt = 0
+
 while guess != computer:
     if guess > computer:
         print("Guess is greater than the computer's number.")
@@ -22,6 +24,7 @@ while guess != computer:
     elif guess < computer:
         print("Guess is lower than the computer's number.")
 
+    attempt += 1
     guess = int(input("Enter your guess : "))
 
-print("Congrats! Your guess was the right one!")
+print(f"Congrats! Your guess was the right one done in {attempt}!")
