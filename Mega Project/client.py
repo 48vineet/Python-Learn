@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="AIzaSyDY0t8Qb4UmQ4oAGxhN-PGboE7pKGh3zKw")
+client = genai.Client(api_key="")
 
 SYSTEM_PROMPT = """
 You are Jarvis, a smart personal voice assistant.

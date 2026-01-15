@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+requirements.txt
+requirement.txt
+
+# Temporary files
+*.mp3
+*.tmp
+__pycache__/
+.DS_Store

@@ -78,7 +78,7 @@ def processCommand(command):
         speak("Fetching news headlines")
         try:
             # Using a free news API that doesn't require authentication
-            url = "https://newsapi.org/v2/top-headlines?country=us&apiKey=a0ad9e7201fa4e4fa51a4c3252c91f23"
+            url = "https://newsapi.org/v2/top-headlines?country=us&apiKey="
             print("Fetching news...")
             response = requests.get(url, timeout=8)
 
