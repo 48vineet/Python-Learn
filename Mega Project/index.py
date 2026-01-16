@@ -4,7 +4,7 @@ import time
 import webbrowser
 
 import pygame
-import requests
+import requests 
 import speech_recognition as sr
 from gtts import gTTS
 
